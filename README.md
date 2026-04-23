@@ -1,23 +1,22 @@
-# DOM Manipulation Exercises 🚀
+# DOM Manipulation Exercises
 
-Repositório dedicado ao estudo e prática de manipulação do DOM (Document Object Model) utilizando JavaScript puro (Vanilla JS) e estilização com Tailwind CSS.
+Repository dedicated to the study and practice of DOM (Document Object Model) manipulation using pure JavaScript (Vanilla JS) and styling with Tailwind CSS.
 
-## 🛠️ Projetos Inclusos
+## Included Projects
 
 ### 1. Task Manager (To-Do List)
-Um gerenciador de tarefas completo com funcionalidades de:
-- **Create**: Adição dinâmica de tarefas.
-- **Read**: Listagem responsiva com tratamento de transbordamento de texto.
-- **Update**: Edição direta na lista (in-place editing).
-- **Delete**: Remoção de itens individuais.
-- **UX**: Validação de campos e atalhos de teclado (Enter/Esc).
+A complete task manager with the following features:
+- **Create**: Dynamic task addition.
+- **Read**: Responsive listing with text overflow handling.
+- **Update**: In-place editing directly in the list.
+- **Delete**: Individual item removal.
+- **UX**: Field validation and keyboard shortcuts (Enter/Esc).
 
-### 2. Multiplication Table (Tabuada)
-Gerador de tabuada dinâmica que processa entradas do usuário e renderiza os resultados em tempo real.
-
-## 🧠 Conceitos Praticados
-- Seleção de elementos (`querySelector`).
-- Criação dinâmica de elementos (`createElement`).
-- Gerenciamento de eventos (`addEventListener`).
-- Propagação e escopo de funções (*closures*).
-- Flexbox e layouts resilientes com Tailwind.
+### 2. Multiplication Table
+A dynamic multiplication table generator that processes user input and renders results in real time.
+## Concepts Practiced
+- Element selection (`querySelector`).
+- Dynamic element creation (`createElement`).
+- Event management (`addEventListener`).
+- Propagation and function scope (*closures*).
+- Flexbox and resilient layouts with Tailwind.
