@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./js/script.js" defer></script>
+    <link href="./src/output.css" rel="stylesheet">
+    <title>To-Do List</title>
+</head>
+<body class="bg-slate-900 text-slate-100 min-h-screen flex items-center justify-center p-4">
+
+    <main class="w-full max-w-md bg-slate-800 p-6 rounded-xl shadow-2xl border border-slate-700">
+        
+        <header class="mb-6">
+            <h1 class="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">
+                Task Manager
+            </h1>
+            <p class="text-slate-400 text-sm">Just with DOM and JavaScript</p>
+        </header>
+
+        <section class="flex flex-col gap-3 mb-8" id="panel">
+            <div class="flex gap-2">
+                <input type="text" id="inputTask" 
+                    placeholder="New Task..." 
+                    class="flex-1 bg-slate-900 border border-slate-700 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-cyan-500 transition-all text-slate-200">
+                
+                <button id="btnAddTask" 
+                    class="bg-cyan-600 hover:bg-cyan-500 text-white font-semibold px-4 py-2 rounded-lg transition-colors">
+                    Add
+                </button>
+            </div>
+            
+            <button id="btnLoad" 
+                class="text-xs text-slate-500 hover:text-cyan-400 self-start transition-colors uppercase tracking-widest font-bold">
+                + Load Tasks
+            </button>
+        </section>
+
+        <section>
+            <ul id="taskList" class="space-y-3">
+                
+            </ul>
+        </section>
+    </main>
+</body>
+</html>

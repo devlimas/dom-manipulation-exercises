@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./js/script.js" defer></script>
+    <link href="./src/output.css" rel="stylesheet">
+    <title>Tabuada</title>
+</head>
+<body class="bg-gradient-to-r from-blue-900 via-sky-500 to-cyan-600 m-14">
+    
+    <h1 class="text-3xl font-bold text-center text-white mt-8 mb-4">Digite o Número e confirme para gerar uma tabuada</h1>
+
+    <div class="bg-gray-200 rounded-2xl py-12 w-5/12 mx-auto" id="table">
+
+        <section class="flex justify-center mb-8" id="panel">
+            
+            <input type="number" id="number" class="mx-auto text-center mx-2 p-2 rounded-lg border-2 border-gray-300 focus:border-cyan-500 focus:ring-2 focus:ring-cyan-500 focus:outline-none transition-all" placeholder="5">
+            <span class="text-center mt-2">X</span>
+            <input type="number" id="multiplier" class="mx-auto text-center mx-2 p-2 rounded-lg border-2 border-gray-300 focus:border-cyan-500 focus:ring-2 focus:ring-cyan-500 focus:outline-none transition-all" placeholder="10">
+
+        </section>
+
+        <button class="block mx-auto bg-cyan-600 hover:bg-cyan-500 text-white font-semibold px-4 py-2 rounded-lg transition-colors" id="btnResult">
+            Gerar Tabuada
+        </button>
+    </div>
+
+    <div id="result" class="bg-gray-200 rounded-2xl py-12 w-5/12 mx-auto mt-8 text-center text-lg text-gray-700">
+        <h2 class="font-bold text-xl mb-4">Resultado da Tabuada...</h2>
+        <ul id="resultList"></ul>
+    </div>
+</body>
+</html>
